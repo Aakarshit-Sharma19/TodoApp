@@ -69,6 +69,4 @@ class TodoAndSpaceServiceTest {
             mockedStatic.verify(() -> SpaceMapper.toSummaryDTO(savedSpace), times(1));
         }
     }
-
-    // Add more tests as needed
 }
